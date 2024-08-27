@@ -1,0 +1,40 @@
+body,html{
+	height: 100%;
+	width: 100%;
+}
+.main-container{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-container > .login,
+.main-container > .hero-body{
+	height: auto;
+	width: 100%;
+	max-width: 400px;
+	min-width: 300px;
+}
+
+.form-inline{
+	display: inline-flex;
+}
+
+.navbar-dark-blue {
+    background-color: #1e3a8a; /* Azul oscuro personalizado */
+}
+
+.navbar-dark-blue .navbar-item,
+.navbar-dark-blue .navbar-link,
+.navbar-dark-blue .button {
+    color: white;
+}
+
+.navbar-dark-blue .navbar-dropdown {
+    background-color: #172554; /* Azul aún más oscuro para el dropdown */
+}
+
+.navbar-dark-blue .navbar-dropdown .navbar-item {
+    color: white;
+}
